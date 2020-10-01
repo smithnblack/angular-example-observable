@@ -1,3 +1,1 @@
-# angular-material-t4ad7y
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-material-t4ad7y)
+Example for Pierre how to make dropdowns with observable and add values dynamically. 
