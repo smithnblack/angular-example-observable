@@ -1,0 +1,21 @@
+<select>
+  <option *ngFor="let item of years$ | async">
+    {{item.year}}
+  </option>
+</select>
+<select>
+  <option *ngFor="let item of months$ | async">
+    {{item.month}}
+  </option>
+</select>
+
+<div class="add-container">
+  <div>
+    <input #month>
+    <button md-button color="primary" class="button" (click)="addMonth(month.value)">Add Month</button>
+  </div>
+  <div>
+    <input #year>
+    <button md-button color="warn" class="button" (click)="addYear(year.value)">Add Year</button>
+  </div>
+</div>

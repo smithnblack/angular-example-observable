@@ -1,0 +1,14 @@
+p {
+  font-family: Lato;
+}
+
+.add-container {
+  margin-top: 20px;
+  display: block;
+  align-items: center;
+  height: 100px;
+}
+
+.button {
+  width: 100px;
+}
